@@ -92,7 +92,7 @@ export default function Education() {
                         </p>
 
                         <span className="rounded-full border border-[#B88932]/30 bg-[#B88932]/10 px-3 py-1 text-[10px] font-bold tracking-widest text-[#8A5B16]">
-                            04
+                            03
                         </span>
                     </div>
 

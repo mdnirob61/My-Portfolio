@@ -187,7 +187,7 @@ export default function Hero() {
 
                         {/* Email */}
                         <a
-                            href="mailto:your-email@example.com"
+                            href="mailto:nirobstudy2004@gmail.com"
                             aria-label="Email"
                             className="flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-white/15 text-white shadow-sm backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:text-[#D4A344] lg:border-[#151515]/5 lg:bg-white/80 lg:text-[#151515]"
                         >
