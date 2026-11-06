@@ -1,6 +1,4 @@
-
 "use client";
-
 import { useState, useSyncExternalStore } from "react";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 
