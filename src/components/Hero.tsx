@@ -198,13 +198,13 @@ export default function Hero() {
 
                 </div>
                 {/* RIGHT PROFILE AREA */}
-                <div className="pointer-events-none absolute inset-0 z-0 flex items-end justify-end overflow-hidden sm:justify-center lg:pointer-events-auto lg:relative lg:inset-auto lg:z-10 lg:mx-0 lg:min-h-125 lg:overflow-visible lg:bg-transparent">
+                <div className="pointer-events-none absolute inset-0 z-0 flex items-end justify-end overflow-hidden translate-x-30 sm:translate-x-0 sm:justify-center lg:pointer-events-auto lg:relative lg:inset-auto lg:z-10 lg:mx-0 lg:min-h-125 lg:overflow-visible lg:bg-transparent">
 
                     {/* Golden Glow */}
                     <div className="absolute left-1/2 top-[42%] h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#B88932]/15 blur-3xl sm:h-80 sm:w-80 lg:top-1/2 lg:bg-[#B88932]/10" />
 
                     {/* Profile Image */}
-                    <div className="relative z-10 h-[92%] w-[120%] max-w-[500px] sm:h-[94%] sm:w-full lg:h-130 lg:w-full lg:max-w-150">
+                    <div className="relative z-10 h-[72%] w-[105%] max-w-[500px] sm:h-[78%] sm:w-full lg:h-130 lg:w-full lg:max-w-150">
 
                         <Image
                             src="/images/my-photo.png"

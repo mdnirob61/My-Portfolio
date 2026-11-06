@@ -9,7 +9,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Nirob | Full Stack Developer",
+  title: "Nirob.dev",
   description:
     "Explore the portfolio of Md Toukir Uz Zaman Nirob, a frontend developer passionate about building modern and user-friendly web applications.",
 };
