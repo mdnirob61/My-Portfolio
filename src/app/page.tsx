@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Hero from "@/components/Hero";
 import PortfolioBackground from "@/components/PortfolioBackground";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="relative z-10 container mx-auto">
         <Hero></Hero>
         <About></About>
+        <Skills></Skills>
       </div>
     </div>
   );

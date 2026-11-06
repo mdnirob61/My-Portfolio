@@ -9,7 +9,7 @@ export default function About() {
     return (
         <section
             id="about"
-            className="relative overflow-hidden bg-[#F3F0E9] px-5 py-24 sm:px-8 lg:px-12 rounded-2xl mt-10"
+            className="relative overflow-hidden bg-[#F3F0E9] px-5 py-13 sm:px-8 lg:px-12 rounded-2xl mt-10"
         >
             {/* Section Background Design */}
             <div className="pointer-events-none absolute inset-0 overflow-hidden">
@@ -53,7 +53,7 @@ export default function About() {
             <div className="relative z-10 mx-auto max-w-300">
 
                 {/* Section Heading */}
-                <div className="relative mb-14">
+                <div className="relative mb-6">
 
                     {/* Background Decorations */}
                     <div className="pointer-events-none absolute -left-16 -top-12 h-36 w-36 rounded-full border border-[#B88932]/15" />
@@ -66,7 +66,7 @@ export default function About() {
                     <div className="relative z-10">
 
                         {/* Eyebrow */}
-                        <div className="mb-5 flex items-center gap-3">
+                        <div className="mb-2 flex items-center gap-3">
                             <span className="h-[2px] w-10 bg-gradient-to-r from-[#8A5B16] to-[#D4A344]" />
 
                             <p className="text-xs font-extrabold uppercase tracking-[0.3em] text-[#8A5B16]">
@@ -127,19 +127,19 @@ export default function About() {
                                 01 / Introduction
                             </span>
 
-                            <h3 className="mt-8 text-3xl font-extrabold leading-tight sm:text-4xl">
+                            <h3 className="mt-4 text-3xl font-extrabold leading-tight sm:text-4xl">
                                 Turning ideas into
                                 <span className="text-[#D4A344]"> meaningful </span>
                                 digital experiences.
                             </h3>
 
                             <p className="mt-6 text-sm leading-8 text-[#C5C0B7] sm:text-base">
-                                I&apos;m Md Toukir Uz Zaman Nirob, a developer passionate
+                                <span className="font-semibold text-xl text-[#D4A344]">I&apos;m Md Toukir Uz Zaman Nirob,</span> a developer passionate
                                 about creating modern, responsive, and user-friendly
                                 web applications.
                             </p>
 
-                            <p className="mt-4 text-sm leading-8 text-[#C5C0B7] sm:text-base">
+                            <p className="mt-2 text-sm leading-8 text-[#C5C0B7] sm:text-base">
                                 My interest in development comes from my love for
                                 design, curiosity about how things work, and the
                                 satisfaction of solving problems.
