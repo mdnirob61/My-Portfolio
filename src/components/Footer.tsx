@@ -147,7 +147,7 @@ const Footer = () => {
                 {/* Bottom Bar */}
                 <div className="flex flex-col items-center justify-between gap-4 border-t border-white/10 py-6 text-center sm:flex-row sm:text-left">
                     <p className="text-xs text-[#77736D]">
-                        © {new Date().getFullYear()} Md Toukir Uz Zaman Nirob. All rights reserved.
+                        © 2026 Md Toukir Uz Zaman Nirob. All rights reserved.
                     </p>
 
                     <a
