@@ -11,45 +11,7 @@ export default function About() {
             id="about"
             className="relative overflow-hidden bg-[#F3F0E9] px-5 py-13 sm:px-8 lg:px-12 rounded-2xl mt-10"
         >
-            {/* Section Background Design */}
-            <div className="pointer-events-none absolute inset-0 overflow-hidden">
 
-                {/* Base Gradient */}
-                <div className="absolute inset-0 bg-gradient-to-br from-[#F3F0E9] via-[#F8F5EF] to-[#EDE7DA]" />
-
-                {/* Golden Glow */}
-                <div className="absolute -right-32 -top-32 h-[450px] w-[450px] rounded-full bg-[#D4A344]/15 blur-[110px]" />
-
-                <div className="absolute -bottom-40 -left-32 h-[400px] w-[400px] rounded-full bg-[#B88932]/10 blur-[100px]" />
-
-                {/* Diagonal Pattern */}
-                <div
-                    className="absolute inset-0 opacity-[0.035]"
-                    style={{
-                        backgroundImage:
-                            "repeating-linear-gradient(135deg, #8A5B16 0px, #8A5B16 1px, transparent 1px, transparent 35px)",
-                    }}
-                />
-
-                {/* Large Decorative Circle */}
-                <div className="absolute -right-40 top-[25%] h-125 w-125 rounded-full border border-[#B88932]/15" />
-
-                <div className="absolute -right-28 top-[30%] h-95 w-95 rounded-full border border-[#B88932]/10" />
-
-                {/* Gold Corner Accent */}
-                <div className="absolute left-0 top-0 h-40 w-40 rounded-br-full border-b border-r border-[#B88932]/15" />
-
-                {/* Small Decorative Dots */}
-                <div className="absolute left-[8%] top-[45%] grid grid-cols-4 gap-3 opacity-25">
-                    {Array.from({ length: 16 }).map((_, index) => (
-                        <span
-                            key={index}
-                            className="h-1.5 w-1.5 rounded-full bg-[#B88932]"
-                        />
-                    ))}
-                </div>
-
-            </div>
             <div className="relative z-10 mx-auto max-w-300">
 
                 {/* Section Heading */}

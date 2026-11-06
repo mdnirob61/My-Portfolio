@@ -108,46 +108,33 @@ export default function Skills() {
     return (
         <section
             id="skills"
-            className="relative isolate overflow-hidden px-5 py-13 sm:px-8 lg:px-12 rounded-2xl mt-10"
+            className="relative isolate overflow-hidden px-5 py-13 sm:px-8 lg:px-12 mt-5"
         >
-            <div className="pointer-events-none absolute inset-0 overflow-hidden">
+            {/* Section Background Design */}
+            <div
+                aria-hidden="true"
+                className="pointer-events-none absolute inset-0 -z-10 overflow-hidden"
+            >
+                {/* Soft Golden Glows */}
+                <div className="absolute -right-40 top-10 h-[400px] w-[400px] rounded-full bg-[#D4A344]/8 blur-[130px]" />
 
-                {/* Base Gradient */}
-                <div className="absolute inset-0 bg-gradient-to-br from-[#F3F0E9] via-[#F8F5EF] to-[#EDE7DA]" />
+                <div className="absolute -left-40 bottom-0 h-[350px] w-[350px] rounded-full bg-[#B88932]/8 blur-[120px]" />
 
-                {/* Golden Glow */}
-                <div className="absolute -right-32 -top-32 h-[450px] w-[450px] rounded-full bg-[#D4A344]/15 blur-[110px]" />
+                {/* Subtle Decorative Rings */}
+                <div className="absolute -right-24 top-24 h-[300px] w-[300px] rounded-full border border-[#B88932]/10" />
 
-                <div className="absolute -bottom-40 -left-32 h-[400px] w-[400px] rounded-full bg-[#B88932]/10 blur-[100px]" />
+                <div className="absolute -right-12 top-36 h-[220px] w-[220px] rounded-full border border-[#B88932]/8" />
 
-                {/* Diagonal Pattern */}
+                {/* Light Dot Pattern */}
                 <div
                     className="absolute inset-0 opacity-[0.035]"
                     style={{
-                        backgroundImage:
-                            "repeating-linear-gradient(135deg, #8A5B16 0px, #8A5B16 1px, transparent 1px, transparent 35px)",
+                        backgroundImage: "radial-gradient(#8A5B16 1px, transparent 1px)",
+                        backgroundSize: "32px 32px",
                     }}
                 />
-
-                {/* Large Decorative Circle */}
-                <div className="absolute -right-40 top-[25%] h-125 w-125 rounded-full border border-[#B88932]/15" />
-
-                <div className="absolute -right-28 top-[30%] h-95 w-95 rounded-full border border-[#B88932]/10" />
-
-                {/* Gold Corner Accent */}
-                <div className="absolute left-0 top-0 h-40 w-40 rounded-br-full border-b border-r border-[#B88932]/15" />
-
-                {/* Small Decorative Dots */}
-                <div className="absolute left-[8%] top-[45%] grid grid-cols-4 gap-3 opacity-25">
-                    {Array.from({ length: 16 }).map((_, index) => (
-                        <span
-                            key={index}
-                            className="h-1.5 w-1.5 rounded-full bg-[#B88932]"
-                        />
-                    ))}
-                </div>
-
             </div>
+         
 
             <div className="relative z-10 mx-auto w-full max-w-[1200px]">
                 {/* Section Heading */}
