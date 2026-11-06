@@ -66,7 +66,7 @@ export default function Navbar() {
     );
 
     return (
-        <header className="sticky top-1 z-50 -mb-[88px] w-full px-4 pt-2 sm:px-6 lg:px-8">
+        <header className="sticky top-5 z-50 -mb-[88px] w-full px-4 pt-2 sm:px-6 lg:px-8  container mx-auto">
 
             <nav className="relative mx-auto flex h-[65px] max-w-[1380px] items-center justify-between rounded-full border border-white/80 bg-[#F3F0E9]/95 px-5 shadow-[0_10px_35px_rgba(21,21,21,0.10)] backdrop-blur-xl sm:px-8">
 
@@ -113,7 +113,7 @@ export default function Navbar() {
                                 key={link.id}
                                 href={`#${link.id}`}
                                 aria-current={isActive ? "location" : undefined}
-                                className={`relative py-2 text-[14px] font-semibold transition-colors duration-300 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-[#B88932] after:transition-transform after:duration-300 ${isActive
+                                className={`relative py-2 text-[14px] font-bold transition-colors duration-300 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-[#B88932] after:transition-transform after:duration-300 ${isActive
                                     ? "text-[#8A5B16] after:scale-x-100"
                                     : "text-[#45413B] after:scale-x-0 hover:text-[#8A5B16] hover:after:scale-x-100"
                                     }`}
@@ -130,7 +130,7 @@ export default function Navbar() {
                     aria-current={
                         activeSection === "contact" ? "location" : undefined
                     }
-                    className={`hidden items-center gap-2 rounded-full bg-gradient-to-r from-[#D4A344] via-[#B88932] to-[#9A671C] px-6 py-3 text-sm font-bold text-white shadow-md shadow-[#B88932]/20 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#B88932]/30 lg:inline-flex ${activeSection === "contact"
+                    className={`hidden items-center gap-2 rounded-full bg-gradient-to-r from-[#D4A344] via-[#B88932] to-[#9A671C] px-6 py-3 text-sm font-bold text-black shadow-md shadow-[#B88932]/20 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#B88932]/30 lg:inline-flex ${activeSection === "contact"
                         ? "ring-2 ring-[#8A5B16]/40 ring-offset-2"
                         : ""
                         }`}

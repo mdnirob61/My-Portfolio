@@ -16,7 +16,7 @@ export default function Hero() {
     return (
         <section
             id="home"
-            className="relative isolate overflow-hidden bg-[#111111] text-white lg:h-182.5 lg:min-h-182.5 lg:bg-[#F3F0E9] lg:text-[#151515]"
+            className="relative isolate overflow-hidden bg-[#111111] text-white lg:h-182.5 lg:min-h-182.5 lg:bg-[#F3F0E9] lg:text-[#151515] rounded-2xl mt-7"
         >
             {/* Desktop Background */}
             <div
