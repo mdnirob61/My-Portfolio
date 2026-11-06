@@ -1,15 +1,17 @@
+'use client'
 import {
     ArrowDown,
     ArrowUpRight,
     Mail,
     Rocket,
+    FileText,
 } from "lucide-react";
 import Image from "next/image";
+import { BsDownload } from "react-icons/bs";
 import {
     FaGithub,
     FaLinkedin,
     FaFacebook,
-    FaEnvelope,
 } from "react-icons/fa";
 
 export default function Hero() {
@@ -132,12 +134,17 @@ export default function Hero() {
                             />
                         </a>
 
+                        {/* Resume Button */}
                         <a
-                            href="#contact"
+                            href="#"
+                            onClick={(e) => e.preventDefault()}
+                            aria-label="Resume (Coming Soon)"
                             className="inline-flex items-center gap-2 rounded-xl border border-white/60 bg-white/10 px-5 py-3.5 text-sm font-bold text-white backdrop-blur-sm transition-all duration-300 hover:border-[#B88932] hover:bg-[#151515] hover:text-white sm:px-7 lg:border-[#151515]/70 lg:bg-[#F3F0E9]/70 lg:text-[#151515]"
                         >
-                            <FaEnvelope></FaEnvelope>
-                            Let&apos;s Talk
+                            <FileText size={18} />
+
+                            Download Resume <p className="text-[1rem]"><BsDownload></BsDownload></p>
+
                         </a>
 
                     </div>
